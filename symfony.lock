@@ -1,10 +1,4 @@
 {
-    "almasaeed2010/adminlte": {
-        "version": "v2.4.3"
-    },
-    "composer/installers": {
-        "version": "v1.11.0"
-    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -22,18 +16,6 @@
     },
     "doctrine/lexer": {
         "version": "1.2.1"
-    },
-    "kevinpapst/adminlte-bundle": {
-        "version": "0.9",
-        "recipe": {
-            "repo": "github.com/symfony/recipes-contrib",
-            "branch": "master",
-            "version": "0.9",
-            "ref": "36a77f782cd6f7cd761384c6a301fedf018e37e5"
-        },
-        "files": [
-            "./config/packages/admin_lte.yaml"
-        ]
     },
     "nikic/php-parser": {
         "version": "v4.12.0"
@@ -147,9 +129,6 @@
             "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
         }
     },
-    "symfony/options-resolver": {
-        "version": "v5.3.7"
-    },
     "symfony/password-hasher": {
         "version": "v5.3.7"
     },
@@ -222,19 +201,6 @@
     },
     "symfony/string": {
         "version": "v5.3.7"
-    },
-    "symfony/translation": {
-        "version": "5.3",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "5.3",
-            "ref": "da64f5a2b6d96f5dc24914517c0350a5f91dee43"
-        },
-        "files": [
-            "./config/packages/translation.yaml",
-            "./translations/.gitignore"
-        ]
     },
     "symfony/translation-contracts": {
         "version": "v2.4.0"

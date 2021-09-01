@@ -10,6 +10,8 @@ const $ = require('jquery');
 require('bootstrap');
 require('@fortawesome/fontawesome-free/css/all.min.css');
 require('@fortawesome/fontawesome-free/js/all.js');
+require('admin-lte/build/js/AdminLTE.js');
+require('admin-lte/plugins/bootstrap/js/bootstrap.bundle.min');
 
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.scss';

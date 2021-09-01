@@ -21,6 +21,8 @@
         "build": "encore production --progress"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "^5.15.4"
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "admin-lte": "^3.1",
+        "bootstrap-sass": "^3.4.1"
     }
 }
